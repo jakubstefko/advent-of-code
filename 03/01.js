@@ -1011,7 +1011,7 @@ for (i = 0; i < input.length; i++) {
   }
 }
 
-i = parseInt(input.length / 2)
+i = input.length / 2
 
 for (j = 0; j < numberOfOnes.length; j++) {
   if (numberOfOnes[j] >= i) {
